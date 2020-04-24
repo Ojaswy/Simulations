@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 from scipy import fftpack
 
 #Class to obtain a solution of the Schrodinger equation for a given potential
