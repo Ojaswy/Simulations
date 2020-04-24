@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib import animation
 import numpy as np
-from schrod_class import Schrodinger
+from schrodinger import Schrodinger
 
 #Helper functions for Gaussian wave-packets
 def gauss_x(x, a, x0, k0):
