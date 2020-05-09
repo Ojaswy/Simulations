@@ -4,7 +4,7 @@ from scipy import fftpack
 #Class to obtain a solution of the Schrodinger equation for a given potential 
 class Schrodinger(object):
 	
-	#All parameters of the class are validated and initialised here
+	#All parameters of the class are validated and initialised here 
 	def __init__(self, x, psi_x0, V_x, k0 = None, hbar = 1, m = 1, t0 = 0.0):
 
 		#Validation of array inputs
