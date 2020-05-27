@@ -25,7 +25,7 @@ def square_barrier(x, width, height):
     return height * (theta(x) - theta(x - width))
 
 #Create the animation
-#Time steps and duration (to be used as parameters for the FFT and the animation)
+#Time steps and duration (to be used as parameters for the FFT and the animation) 
 dt = 0.01
 N_steps = 50
 t_max = 120
