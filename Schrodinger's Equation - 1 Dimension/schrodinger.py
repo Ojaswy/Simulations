@@ -1,7 +1,7 @@
 import numpy as np  
 from scipy import fftpack    
   
-#Class to obtain a solution of the Schrodinger equation for a given potential   
+#Class to obtain a solution of the Schrodinger equation for a given potential    
 class Schrodinger(object):
 	
 	#All parameters of the class are validated and initialised here 
