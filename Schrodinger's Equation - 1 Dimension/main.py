@@ -3,7 +3,7 @@ from matplotlib import animation
 import numpy as np     
 from schrodinger import Schrodinger
 
-#Helper functions for Gaussian wave-packets 
+#Helper functions for Gaussian wave-packets   
 def gauss_x(x, a, x0, k0):
     #A Gaussian wave packet of width a, centered at x0, with momentum k0 
     return ((a * np.sqrt(np.pi)) ** (-0.5) * np.exp(-0.5 * ((x - x0) * 1. / a) ** 2 + 1j * x * k0))
